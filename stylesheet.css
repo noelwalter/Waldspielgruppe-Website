@@ -1,0 +1,156 @@
+body,html {
+    height: 100%;
+    margin: 0%;
+    max-height: 100vh;
+}
+
+.nav-link {
+    font-size: 15pt;
+    margin-left: 2vh;
+    text-transform: uppercase;
+    margin-right: 2vh;
+    font-family: Raleway;
+}
+@media only screen and (max-width: 600px) {
+    #home-bg {
+        background-image: none;
+    }
+}
+.active {
+    border-bottom: 1.5px solid #000000;
+}
+.navbar {
+    padding-top: 2vh;
+    padding-left: 11vh;
+   /* background-color: transparent; */
+}
+.navbar.scrolled {
+    background-color: #ffffff;
+}
+ul.navbar-nav {
+    text-align: center  ;
+}
+/* BACKGROUND*/
+#container_infos_title {
+    margin-bottom: 10vh;
+}
+.bg {
+     height: 100%;
+     width: 50vw;
+     float: right;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+#home-bg{
+    background-image: url("img/senjuti-kundu-413243-unsplash.jpg");
+}
+
+#infos-bg {
+    background-image: url("img/gabby-orcutt-74607-unsplash.jpg");
+}
+
+#about-bg {
+     background-image: url("img/daiga-ellaby-354484-unsplash.jpg");
+}
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+}
+#text-home {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13pt;
+    margin-right: 8vh;
+    margin-top: 3vh;
+    margin-bottom: 35vh;
+}
+#title_home {
+    margin-top: 18vh;
+    font-size: 30pt;
+}
+#title_infos, #title_about {
+    margin-top: 55vh;
+    font-size: 100pt;
+    text-transform: uppercase;
+    margin-bottom: 30%;
+}
+#bekleidung_title {
+    letter-spacing: 0pt;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#kosten {
+    margin-top: 10vh;
+    padding: 0;
+    margin-bottom: 10vh;
+}
+/* PARALLAX*/
+#plx {
+    background-image: url("img/daniel-peters-156464-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+#plx-2 {
+    background-image: url("img/imat-bagja-gumilar-518288-unsplash (1).jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+/* ICONS*/
+img {
+    width: inherit;
+}
+.lauftext {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13pt;
+}
+/* GOOGLE MAP*/
+.map-container {
+    height: 60vh;
+    margin-bottom: 10vh;
+    box-shadow: 0px 0px 10px #2E2E2E
+}
+/* FOOTER*/
+.page-footer {
+    color: white;
+    background-color: #2E2E2E;
+}
+.footer-copyright {
+    padding: 2vh;
+}
+/* LEITER */
+.row.justify-content-around {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#Sandra {
+    object-fit: cover;
+}
+#cards {
+    margin-top: 40vh;
+}
+
+/*FORM*/
+.main-formular{
+    width: 500px;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+/*TEXT RESPONSIVE */
+    @media only screen and (max-width:1100px ) {
+        #title_home {
+            color: #1c7430;
+            font-size: 2rem;
+        }
+        .bg {
+            height: 50vh;
+            width: 100%;
+        }
+    }
