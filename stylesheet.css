@@ -1,7 +1,6 @@
 body,html {
     height: 100%;
     margin: 0%;
-    max-height: 100vh;
 }
 
 .nav-link {
@@ -30,6 +29,9 @@ body,html {
 ul.navbar-nav {
     text-align: center  ;
 }
+.nav-link:hover {
+    border-bottom: 1.5px solid #000000;
+}
 /* BACKGROUND*/
 #container_infos_title {
     margin-bottom: 10vh;
@@ -53,6 +55,10 @@ ul.navbar-nav {
 #about-bg {
      background-image: url("img/daiga-ellaby-354484-unsplash.jpg");
 }
+#about {
+    margin-bottom: 10vh;
+}
+/*TEXT */
 h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: normal;
@@ -83,6 +89,14 @@ h1 {
     margin-top: 10vh;
     padding: 0;
     margin-bottom: 10vh;
+}
+.untertitel_1 {
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+.untertitel_2 {
+    margin-bottom: 10vh;
+    margin-top: 30vh;
 }
 /* PARALLAX*/
 #plx {
@@ -120,8 +134,9 @@ img {
     color: white;
     background-color: #2E2E2E;
 }
-.footer-copyright {
-    padding: 2vh;
+#img_footer {
+    height: 70px;
+    width: 70px;
 }
 /* LEITER */
 .row.justify-content-around {
@@ -131,18 +146,24 @@ img {
 #Sandra {
     object-fit: cover;
 }
-#cards {
-    margin-top: 40vh;
-}
-
 /*FORM*/
 .main-formular{
     width: 500px;
     margin: auto;
-    margin-top: 20%;
     margin-bottom: 10%;
 }
-
+/*Gallery */
+#gallery_titel {
+    margin-top: 35vh;
+}
+#gallery_content {
+    margin-top: 12vh;
+}
+.gallerytitel {
+    font-family: Raleway, sans-serif;
+    font-size: 25pt;
+    font-weight: normal;
+}
 /*TEXT RESPONSIVE */
     @media only screen and (max-width:1100px ) {
         #title_home {
