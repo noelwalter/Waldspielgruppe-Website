@@ -10,13 +10,11 @@ body,html {
     margin-right: 2vh;
     font-family: Raleway;
 }
-@media only screen and (max-width: 600px) {
-    #home-bg {
-        background-image: none;
-    }
-}
 .active {
     border-bottom: 1.5px solid #000000;
+}
+.active:hover {
+    border-bottom: none;
 }
 .navbar {
     padding-top: 2vh;
@@ -51,9 +49,13 @@ ul.navbar-nav {
 #infos-bg {
     background-image: url("img/gabby-orcutt-74607-unsplash.jpg");
 }
-
 #about-bg {
      background-image: url("img/daiga-ellaby-354484-unsplash.jpg");
+}
+@media only screen and (max-width: 1100px) {
+    #infos-bg, #about-bg {
+        width: 100%;
+    }
 }
 #about {
     margin-bottom: 10vh;
@@ -146,11 +148,24 @@ img {
 #Sandra {
     object-fit: cover;
 }
+@media only screen and (max-width: 1000px) {
+    .col-6.col-sm-3 {
+        padding-left: 1%;
+        padding-right: 1%;
+
+    }
+}
 /*FORM*/
 .main-formular{
-    width: 500px;
-    margin: auto;
+    padding-left: 30%;
+    padding-right: 30%;
     margin-bottom: 10%;
+}
+@media only screen and (max-width: 1000px) {
+    .main-formular {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
 }
 /*Gallery */
 #gallery_titel {
@@ -175,3 +190,8 @@ img {
             width: 100%;
         }
     }
+@media only screen and (max-width: 1000px) {
+    #title_about,#title_infos {
+        font-size: 5rem;
+    }
+}

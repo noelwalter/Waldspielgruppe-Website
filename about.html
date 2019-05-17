@@ -16,7 +16,7 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainnav">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,12 +38,13 @@
     </div>
 </nav>
 
-<div class="bg" id="about-bg"></div>
-
-<div class="container-fluid" id="about">
+<div class="container-fluid" id="container_about_title">
     <div class="row">
-        <div class="col-12">
-            <h1 class="text-right" id="title_about">ABOUT</h1>
+        <div class="col-6">
+            <h1 class="text-right mr-5" id="title_infos">ABOUT</h1>
+        </div>
+        <div class="col-6 p-0">
+            <div class="bg" id="about-bg"></div>
         </div>
     </div>
 </div>
@@ -79,7 +80,7 @@
 
 
 
-<div class="container-fluid" id="cards">
+<div class="container-fluid">
     <div class="row justify-content-around">
         <div class="col-sm-7">
             <h1 class="untertitel_2">Team</h1>
@@ -87,7 +88,7 @@
         <div class="col-sm-4"></div>
     </div>
     <div class="row justify-content-around">
-        <div class="col-3">
+        <div class="col-6 col-sm-3">
             <div class="card card-cascade" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="600">
 
                 <!-- Card image -->
@@ -110,7 +111,7 @@
             </div>
         </div>
 
-        <div class="col-3">
+        <div class="col-6 col-sm-3">
             <div class="card card-cascade" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="600">
 
                 <!-- Card image -->
@@ -135,36 +136,6 @@
     </div>
 </div>
 
-<!--
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="row mb-5">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-                </a>
-            </div>
-            <div class="row mb-5">
-                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
--->
 <div class="container-fluid">
     <div class="row justify-content-around">
         <div class="col-sm-7">
@@ -173,6 +144,7 @@
         <div class="col-sm-4"></div>
     </div>
 </div>
+
 <form action="" class="main-formular needs-validation">
     <div class="row">
         <div class="col">
@@ -213,16 +185,23 @@
 
 </form>
 
-
 <!-- Footer -->
 <footer class="page-footer">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-6">
+        <div class="row align-items-center">
+            <div class="col-6 col-sm-6">
                 <div class="footer-copyright text-left">© 2019 Copyright: Noel Walter</div>
             </div>
-            <div class="col-6">
-                <h4 class="text-right">Partner</h4>
+            <div class="col-1 col-sm-4"></div>
+
+            <div class=" col-1 col-sm-1 d-flex justify-content-end">
+                <p class="text-left lead pt-2">Partner</p>
+
+            </div>
+            <div class="col-2 col-sm-1">
+                <a href="https://waldspielgruppe-langnau.clubdesk.com//clubdesk/www?p=100100">
+                    <img src="img/Unbenannt.PNG" id="img_footer" class="p-2">
+                </a>
             </div>
         </div>
     </div>
