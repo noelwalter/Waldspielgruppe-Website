@@ -52,11 +52,6 @@ ul.navbar-nav {
 #about-bg {
      background-image: url("img/daiga-ellaby-354484-unsplash.jpg");
 }
-@media only screen and (max-width: 1100px) {
-    #infos-bg, #about-bg {
-        width: 100%;
-    }
-}
 #about {
     margin-bottom: 10vh;
 }
@@ -70,7 +65,7 @@ h1 {
     font-size: 13pt;
     margin-right: 8vh;
     margin-top: 3vh;
-    margin-bottom: 35vh;
+    margin-bottom: 0vh;
 }
 #title_home {
     margin-top: 18vh;
@@ -99,6 +94,9 @@ h1 {
 .untertitel_2 {
     margin-bottom: 10vh;
     margin-top: 30vh;
+}
+.unterliste {
+    list-style: none;
 }
 /* PARALLAX*/
 #plx {
@@ -148,24 +146,11 @@ img {
 #Sandra {
     object-fit: cover;
 }
-@media only screen and (max-width: 1000px) {
-    .col-6.col-sm-3 {
-        padding-left: 1%;
-        padding-right: 1%;
-
-    }
-}
 /*FORM*/
 .main-formular{
     padding-left: 30%;
     padding-right: 30%;
     margin-bottom: 10%;
-}
-@media only screen and (max-width: 1000px) {
-    .main-formular {
-        padding-right: 10%;
-        padding-left: 10%;
-    }
 }
 /*Gallery */
 #gallery_titel {
@@ -179,19 +164,33 @@ img {
     font-size: 25pt;
     font-weight: normal;
 }
-/*TEXT RESPONSIVE */
+/*RESPONSIVE */
     @media only screen and (max-width:1100px ) {
         #title_home {
             color: #1c7430;
             font-size: 2rem;
         }
         .bg {
-            height: 50vh;
+            height: 35vh    ;
             width: 100%;
         }
+        #title_about,#title_infos {
+            font-size: 5rem;
+            margin-top: 25vh;
+        }
+        .main-formular {
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+        .col-6.col-sm-3 {
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        .navbar-collapse {
+            background-color: #ffffff;
+        }
+        #card_2{
+            margin-top: 10vh;
+        }
+
     }
-@media only screen and (max-width: 1000px) {
-    #title_about,#title_infos {
-        font-size: 5rem;
-    }
-}
