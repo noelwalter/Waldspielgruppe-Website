@@ -1,6 +1,7 @@
 body,html {
     height: 100%;
     margin: 0%;
+    scroll-behavior: smooth;
 }
 
 .nav-link {
@@ -115,6 +116,11 @@ h1 {
     background-size: cover;
     height: 75vh;
 }
+#plx-text1, #plx-text2 {
+    color: white;
+    font-size: 80pt;
+    text-transform: uppercase;
+}
 /* ICONS*/
 img {
     width: inherit;
@@ -138,7 +144,7 @@ img {
     height: 70px;
     width: 70px;
 }
-/* LEITER */
+/* CARDS */
 .row.justify-content-around {
     margin-left: 4%;
     margin-right: 4%;
@@ -163,6 +169,24 @@ img {
     font-family: Raleway, sans-serif;
     font-size: 25pt;
     font-weight: normal;
+}
+/*Scroll to Top*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px; /* Place the button at the bottom of the page */
+    right: 50px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set a background color */
+    color: #2E2E2E; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: whitesmoke; /* Add a dark-grey background on hover */
 }
 /*RESPONSIVE */
     @media only screen and (max-width:1100px ) {
@@ -189,8 +213,6 @@ img {
         .navbar-collapse {
             background-color: #ffffff;
         }
-        #card_2{
-            margin-top: 10vh;
-        }
+
 
     }

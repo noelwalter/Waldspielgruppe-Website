@@ -74,6 +74,7 @@
             <p>Der beste Schutz gegen Zecken sind die Kleider. Tragen Sie Ihrem Kind an den freien Hautstellen Zeckenspray auf. Durchsuchen Sie Ihr Kind nach jedem Waldtag.</p>
             <a href="https://www.familienleben.ch/gesundheit/therapien-hilfe/zecken-entfernen-so-klappt-es-kurz-und-schmerzlos-5687" class="card-link">Zecken Infos</a>
         </div>
+
         <div class="col-12 col-lg-3 text-center">
             <h2>Versicherung</h2>
             <p>Unfall-und Haftpflichtversicherung ist Sache der Eltern.</p>
@@ -82,6 +83,9 @@
             <h2>Probezeit / Kündigung</h2>
             <p>Die Probezeit beträgt einen Monat. Dannach ist die Kündigung nur auf Ende des folgenden Quartals möglich. Für einen vorzeitigen Austritt kann keine Rückerstatung gewährt werden.</p>
         </div>
+    </div>
+    <div class="row justify-content-around mr-5 ml-5 mt-4">
+
         <div class="col-12 col-lg-3 text-center">
             <h2>Ferien / Feiertage</h2>
             <p>Wir richten uns nach dem Adliswiler Schulferienplan</p>
@@ -93,7 +97,11 @@
 </div>
 
 <section id="plx">
-    <div class="container"></div>
+    <div class="row h-100">
+        <div class="col-sm-12 align-self-center text-center">
+         <h1 id="plx-text1">Ausrüstung</h1>
+        </div>
+    </div>
 </section>
 
 <div class="container-fluid" id="bekleidung">
@@ -109,7 +117,7 @@
         <div class="row justify-content-around mr-5 ml-5 mt-5">
             <div class="col-8 col-sm-7 col-lg-2 align-self-baseline">
                 <img src="img/sommer.png" class="" alt="Sun Image">
-                <ul class="mb-5 mt-3 pl-0">
+                <ul class="mb-5 mt-3 pl-1">
                     <li>guter Wanderschuh</li>
                     <li>Kniesocken</li>
                     <li>Sommerhut</li>
@@ -119,7 +127,7 @@
             </div>
             <div class="col-8 col-sm-7 col-lg-2 align-self-baseline">
                 <img src="img/winter.png" class="" alt="Winter Image" >
-                <ul class="mb-5 mt-3 pl-0">
+                <ul class="mb-5 mt-3 pl-1">
                     <li>warme gefütterte Schuhe</li>
                     <li>warme Kappe</li>
                     <li>baumwollige Fingerhandschuhe</li>
@@ -132,7 +140,7 @@
             </div>
             <div class="col-8 col-sm-7 col-lg-2 align-self-baseline">
                 <img src="img/regen.png" alt="Regen Image" class="" >
-                <ul class="mb-5 mt-3 pl-0">
+                <ul class="mb-5 mt-3 pl-1">
                     <li>wasserfeste Schuhe</li>
                     <li>atmunngsaktive Regenhose</li>
                     <li>Regenjacke mit Kapuze</li>
@@ -159,7 +167,7 @@
         <div class="row align-items-baseline justify-content-around mr-5 ml-5 mt-5">
             <div class="col-8 col-sm-7 col-lg-2">
                 <img src="img/ausrüstung.png" class="" alt="Ausrüstung Image" >
-                <ul class="mb-5 mt-3 pl-0">
+                <ul class="mb-5 mt-3 pl-1">
                     <li>wasserabweisender Rucksack mit Brustriemen</li>
                     <li>Suppenschale mit Löffel</li>
                     <li>Trink- oder Thermosflasche</li>
@@ -198,7 +206,11 @@
 
 
 <section id="plx-2">
-    <div class="container mt-5  "></div>
+    <div class="row h-100">
+        <div class="col-sm-12 align-self-center text-center">
+            <h1 id="plx-text2">Zeit & Ort</h1>
+        </div>
+    </div>
 </section>
 
 <div class="container-fluid">
@@ -224,6 +236,9 @@
         </div>
     </div>
 </div>
+
+<button type="button" class="btn btn-lg" onclick="topFunction()" id="myBtn" ><i class="fas fa-angle-up fa-3x"></i></button>
+
 
 <!-- Footer -->
 <footer class="page-footer">
@@ -266,6 +281,23 @@
     AOS.init();
 </script>
 
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
 
+    function scrollFunction() {
+        if (document.body.scrollTop > 20|| document.documentElement.scrollTop > 800) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
 </body>
 </html>
