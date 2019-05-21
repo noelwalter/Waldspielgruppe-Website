@@ -4,9 +4,6 @@
     <list default="true" id="241a6309-1e23-4d0a-baf2-a34cb4622099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infos.html" beforeDir="false" afterPath="$PROJECT_DIR$/infos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/infos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="240" lean-forward="true" selection-start-line="240" selection-end-line="240" />
+            <state relative-caret-position="4080">
+              <caret line="240" selection-start-line="240" selection-end-line="240" />
             </state>
           </provider>
         </entry>
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="165" column="65" lean-forward="true" selection-start-line="165" selection-start-column="65" selection-end-line="165" selection-end-column="65" />
+            <state relative-caret-position="1813">
+              <caret line="140" column="78" lean-forward="true" selection-start-line="140" selection-start-column="78" selection-end-line="140" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -46,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="2278">
               <caret line="134" column="78" selection-start-line="134" selection-end-line="135" />
             </state>
           </provider>
@@ -55,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="2669">
               <caret line="157" column="9" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
             </state>
           </provider>
@@ -85,8 +82,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/stylesheet.css" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/infos.html" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -102,6 +99,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Waldspielgruppe-Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Waldspielgruppe-Website" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -117,17 +125,6 @@
             <path>
               <item name="Waldspielgruppe-Website" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Waldspielgruppe-Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Waldspielgruppe-Website" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,7 +208,8 @@
       <workItem from="1558092524219" duration="8470000" />
       <workItem from="1558186439238" duration="3851000" />
       <workItem from="1558282535139" duration="11890000" />
-      <workItem from="1558335739467" duration="14963000" />
+      <workItem from="1558335739467" duration="14993000" />
+      <workItem from="1558441211969" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="take out animation-cards">
       <created>1557904109316</created>
@@ -248,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558296917780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="infos / cards">
+      <created>1558363748289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558363748289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207805000" />
+    <option name="totallyTimeSpent" value="207998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -428,31 +433,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
+    <entry file="file://$PROJECT_DIR$/infos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="134" column="78" selection-start-line="134" selection-end-line="135" />
+        <state relative-caret-position="4080">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infos.html">
+    <entry file="file://$PROJECT_DIR$/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="240" lean-forward="true" selection-start-line="240" selection-end-line="240" />
+        <state relative-caret-position="2278">
+          <caret line="134" column="78" selection-start-line="134" selection-end-line="135" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="2669">
           <caret line="157" column="9" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="165" column="65" lean-forward="true" selection-start-line="165" selection-start-column="65" selection-end-line="165" selection-end-column="65" />
+        <state relative-caret-position="1813">
+          <caret line="140" column="78" lean-forward="true" selection-start-line="140" selection-start-column="78" selection-end-line="140" selection-end-column="78" />
         </state>
       </provider>
     </entry>
